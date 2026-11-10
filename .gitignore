@@ -1,0 +1,86 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Python testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checking / Linting
+.mypy_cache/
+.dmypy.json
+.pyre/
+.ruff_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Database files
+*.sqlite3
+*.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Flask
+instance/
+
+# Django
+staticfiles/
+media/
+
+# FastAPI / Uvicorn
+*.pid
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Documentation builds
+docs/_build/
+
+# Local configuration
+local_settings.py
+output*
+test_data/*

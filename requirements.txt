@@ -1,0 +1,29 @@
+# ==============================================================================
+# Core Preprocessing & Local Execution (Always Required)
+# ==============================================================================
+pillow>=10.2.0
+pikepdf>=8.7.0
+pdf2image>=1.17.0
+
+# ==============================================================================
+# PaddleOCR Production Engines (GPU / CPU)
+# Supports: PaddleOCR-VL-1.5, PaddleOCR-VL-1.6, and PP-OCRv6
+# ==============================================================================
+# 1. Install PaddlePaddle matching your CUDA driver (e.g., cu126 or cu118):
+#    pip install paddlepaddle-gpu==3.2.1 -i https://www.paddlepaddle.org.cn/packages/stable/cu126/
+#    (For CPU-only environments: pip install paddlepaddle>=3.0.0)
+
+# 2. Universal OCR Engine (PP-OCRv6 with PPLCNetV4 backbone):
+# paddleocr>=3.7.0
+
+# 3. Vision-Language Layout Parsers (PaddleOCR-VL-1.5 and PaddleOCR-VL-1.6):
+# paddleocr[doc-parser]>=3.0.0
+
+# ==============================================================================
+# Optional: Hugging Face Transformers & vLLM Backend
+# For serving PaddlePaddle/PaddleOCR-VL-1.5 & PaddlePaddle/PaddleOCR-VL-1.6 via PyTorch
+# ==============================================================================
+# torch>=2.2.0
+# torchvision>=0.17.0
+# transformers>=4.40.0
+# accelerate>=0.28.0
